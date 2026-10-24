@@ -1,0 +1,19 @@
+# Python & Virtual Environments
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Airflow local logs & data generated at runtime
+logs/
+data/
+airflow.cfg
+airflow.db
+unittests.cfg
+webserver_config.py
+*.sqlite
+*.db
+
+# OS specific
+.DS_Store
+Thumbs.db
